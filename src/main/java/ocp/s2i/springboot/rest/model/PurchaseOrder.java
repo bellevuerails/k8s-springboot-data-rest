@@ -97,7 +97,6 @@ public class PurchaseOrder {
         this.origin = origin;
     }
 
-    Uncomment this method for retrieving order total !!!
     public Float getDiscountAmount() {
 	return ( (this.price * this.quantity) * ( Float.parseFloat(this.dcode) / 100 ) );
     } 
